@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+</head>
+<body>
+	<br>
+	<h1>
+		<i><b>Calculator</b></i>
+	</h1>
+	<form action="process.jsp" name="calcform">
+		<div>
+			<label>Number 1:</label><input type="number" name="num1"></input> <br>
+		</div>
+		<div>
+			<label>Number 2: </label><input type="number" name="num2"></input> <br>
+		</div>
+		<br>
+		<div>
+			<label>operation: </label> <select name="operation"
+				onchange="calcform.submit()">
+				<option value="">select</option>
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
+
+
+			</select>
+		</div>
+
+	</form>
+	<br>
+	
+	
+	<a href=IT.html ><button>Income tax calculation</button></a>
+</body>
+</html>
